@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 # Author - Makena Njeru
 
 """Print numbers 0 to 98 in decimal and hexadecimal."""
