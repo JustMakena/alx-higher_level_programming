@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
-from add_0 import add
-        
-    a = 1
-    b = 2
+import hidden_4
 
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+    for x in dir(hidden_4):
+        if not x.startswith('__'):
+            print(x)
