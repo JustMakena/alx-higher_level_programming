@@ -17,7 +17,7 @@ def print_stats(size, status_codes):
     """
     print("File size: {}".format(size))
     for key in sorted(status_codes):
-        print("{}: {}".format(key, status_codes[key]))   
+        print("{}: {}".format(key, status_codes[key]))
 
 
 if __name__ == "__main__":
@@ -34,20 +34,20 @@ if __name__ == "__main__":
                 print_stats(size, status_codes)
                 count = 1
             else:
-                count += 1   
+                count += 1
 
             line = line.split()
 
             try:
-                 size += int(line[-1])
+                size += int(line[-1])
             except (IndexError, ValueError):
-                 pass
+                pass
 
             try:
-                 if line[-2] in valid_codes:
-                     if status_codes.get(line[-2], -1) == -1:
-                         status_codes[line[-2]] = 1
-                     else:
+                if line[-2] in valid_codes:
+                    if status_codes.get(line[-2], -1) == -1:
+                        status_codes[line[-2]] = 1
+                    else:
                         status_codes[line[-2]] += 1
             except IndexError:
                 pass
@@ -56,4 +56,4 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         print_stats(size, status_codes)
-            raise
+        raise
