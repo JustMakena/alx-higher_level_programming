@@ -32,9 +32,9 @@ class Rectangle(BaseGeometry):
         return self.__width * self.__height
 
     def __str__(self):
-         """ Defines print output """
-         return "[Rectangle] {}/{}".format(self.__width, self.__height)
- 
+        """ Defines print output """
+        return "[Rectangle] {}/{}".format(self.__width, self.__height)
+
 
 class Square(Rectangle):
     """ Square Sub Class of Rectangle """ 
@@ -46,5 +46,5 @@ class Square(Rectangle):
         super().__init__(size, size)
 
     def area(self):
-         """ Returns the area of a square """
-         return self.__size * self.__size
+        """ Returns the area of a square """
+        return self.__size * self.__size
