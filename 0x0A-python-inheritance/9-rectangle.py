@@ -34,4 +34,4 @@ class Rectangle(BaseGeometry):
     def __str__(self):
         """ Defines print output """
         return "[{}] {}/{}".format(type(self).__name__,
-                                    self.__width, self.__height)
+                                   self.__width, self.__height)
