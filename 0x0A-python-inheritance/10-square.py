@@ -37,7 +37,7 @@ class Rectangle(BaseGeometry):
 
 
 class Square(Rectangle):
-    """ Square Sub Class of Rectangle """ 
+    """ Square Sub Class of Rectangle """
 
     def __init__(self, size):
         """ Initializes data for the square class """
