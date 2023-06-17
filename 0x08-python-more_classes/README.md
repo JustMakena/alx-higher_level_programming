@@ -1,0 +1,1 @@
+This python director explores more uses of classes and objectsI write code of different objects
