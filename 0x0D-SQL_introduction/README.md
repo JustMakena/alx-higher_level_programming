@@ -1,0 +1,1 @@
+This directory contains scripts of code exploring MySQL
