@@ -1,0 +1,1 @@
+This file explores another angle of Javascript. WE dive in depth in learning and practicing about Objects, scopes and closures
